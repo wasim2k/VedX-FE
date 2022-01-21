@@ -1,0 +1,44 @@
+.Customer_container {
+  display: flex;
+  justify-content: center;
+}
+.Customer_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+}
+.Customer_details {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+
+  min-width: 300px;
+}
+p{
+padding-left: 112px;
+
+}
+.navbar{
+  background-color: rgb(32, 161, 140);
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li{
+  float:left;
+  list-style: none;
+  padding:3px 73px;
+}
+h1{
+  color:rgb(19, 173, 179);
+}
+.Customer_input{
+  width:300px;
+  height:30px;
+}
+.Status{
+  color: aqua;
+}
